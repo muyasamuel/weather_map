@@ -23,7 +23,7 @@ btn.addEventListener("click", () =>{
        document.querySelector(".desc").textContent = description;
        document.querySelector(".wind-speed").textContent = windSpeed + "m/s";
 
-       
+       displayHeading();
     })
     .catch(error => {
         let errorMsg = document.querySelector(".errorMsg");
