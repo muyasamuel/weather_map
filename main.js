@@ -29,7 +29,10 @@ btn.addEventListener("click", () =>{
 
 
     })
-    .catch(error => console.log(error))
+    .catch(error => {
+        let errorMsg = document.querySelector(".errorMsg");
+        errorMsg.style.display = "block";
+    })
 
     
 });

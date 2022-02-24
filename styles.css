@@ -27,6 +27,15 @@ section{
     padding: 50px;
     border-radius: 7px;
 }
+.errorMsg{
+    text-align: center; 
+    border-radius: 7px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    background-color:rgb(47,150,163) ;
+    display: none;
+    
+}
 .inputValue{
     margin-bottom: 20px;
     height: 30px;
