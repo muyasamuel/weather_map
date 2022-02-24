@@ -24,10 +24,6 @@ btn.addEventListener("click", () =>{
        document.querySelector(".wind-speed").textContent = windSpeed + "m/s";
 
        
-
-
-
-
     })
     .catch(error => {
         let errorMsg = document.querySelector(".errorMsg");
