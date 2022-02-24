@@ -27,3 +27,17 @@ section{
     padding: 50px;
     border-radius: 7px;
 }
+.inputValue{
+    margin-bottom: 20px;
+    height: 30px;
+    outline: none;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(48,63,143);
+    margin-right: 10px;
+    
+}
+.input ::placeholder{
+     text-align: center;
+     text-transform: capitalize;
+}
