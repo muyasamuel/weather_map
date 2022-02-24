@@ -71,9 +71,16 @@ section{
     flex-direction: column;  
     
 }
-.speed, .description {
-    display: flex;
+.icon-temp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
+.temperature{
+    display: flex;
+    align-items: center;
+}
+
 .speed h1, .description h1 {
     color: rgb(48,63,143);
 }
