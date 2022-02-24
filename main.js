@@ -23,6 +23,8 @@ btn.addEventListener("click", () =>{
        document.querySelector(".desc").textContent = description;
        document.querySelector(".wind-speed").textContent = windSpeed + "m/s";
 
+       
+
 
 
 
@@ -31,3 +33,13 @@ btn.addEventListener("click", () =>{
 
     
 });
+
+function displayHeading (){
+    const inputValue = document.querySelector(".inputValue")
+    let cityName = inputValue.value;
+   
+    const cityText = document.querySelector(".city-name");
+    cityText.textContent = cityName;
+ 
+ 
+ }
