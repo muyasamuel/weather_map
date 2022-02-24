@@ -58,6 +58,13 @@ section{
     border-radius: 5px;
     
 }
+.city-name{
+    color: rgb(48,63,143);
+    text-transform: uppercase;
+    text-align: center; 
+    
+    
+}
 .display{ 
     display: flex;
     justify-content: space-between;
