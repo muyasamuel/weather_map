@@ -15,6 +15,15 @@ btn.addEventListener("click", () =>{
         let windSpeed = data.wind.speed;
         let icon = data.weather[0].icon;
 
+          
+       let iconLink = `http://openweathermap.org/img/wn/${icon}@2x.png`
+
+       document.querySelector(".icon-image").src = iconLink;
+       document.querySelector(".temp").textContent =   Math.round((temp -273.15)*10 )/10 ;
+       document.querySelector(".desc").textContent = description;
+       document.querySelector(".wind-speed").textContent = windSpeed + "m/s";
+
+
 
 
     })
